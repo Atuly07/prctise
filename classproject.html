@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>London Brogues</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        html, body {
+        overflow-x: hidden;
+        }
+
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-gray-100 h-screen w-screen">
@@ -38,92 +44,186 @@
     </div>    
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 p-4">
         <div class="relative text-center bg-white p-4 rounded-lg shadow-md">
-            <span class="absolute top-2 left-2 bg-red-600 text-white px-2 py-1 text-xs font-bold">SALE</span>
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
             <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">ALBERT PATENT BROGUE OXFORD</p>
             <p class="font-bold">£74.00 <span class="line-through text-gray-500">£87.00</span></p>
         </div>
         <!-- Product Item -->
         <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTOXFORD.jpg?v=1698323590&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">ALBERT PATENT PLAIN OXFORD</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
         <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/SIDNEYTAN3Q.jpg?v=1666013167&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">SIDNEY OXFORD TAN</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
         <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/SIDNEYBLACK3Q.jpg?v=1666013776&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">SIDNEY OXFORD BLACK</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
         <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/LBTAN.jpg?v=1631795146&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">RIPLEY OXFORD TAN</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
         <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/LBBROWN.jpg?v=1631795137&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">RIPLEY OXFORD CHESTNUT</p>
             <p class="font-bold">£87.00</p>
         </div>
 
     </div>
-    <div class="h-[60%] w-[90%] ml-[5%] mr-[5%] border-1">
+
+
+
+
+    <!--image after product page-->
+    <div class="h-[60%] w-[90%] ml-[5%] mr-[5%] border-1 relative">
         <img src="https://londonbrogues.co.uk/cdn/shop/t/26/assets/lb-brogues.jpg?v=126712014838268970381740671550" alt="" class="w-full h-full object-cover">
+
+        <div class="absolute top-[50%] left-[5%]">
+            <p class="text-md md:text-lg lg:text-xl text-white">Groom or Guest</p>
+            <p class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4">The brogues to suit your style</p>
+            <p class="text-md md:text-lg lg:text-xl text-white hover:border-b-1 hover:cursor-pointer mt-4">>Shop our wedding collection</p>
+        </div>
     </div>
+
+
+    <!--Two image-->
+    <div class="w-full h-[60vh] flex flex-col md:flex-row mt-10">
+        <!-- Left -->
+        <div class="relative md:w-1/2 h-full">
+            <img src="https://londonbrogues.co.uk/cdn/shop/t/26/assets/lb-left.jpg?v=56729518042173369651740671550" 
+                alt="" class="h-full w-full object-cover">
+            <div class="absolute top-1/2 left-1/4 transform -translate-y-1/2 text-white">
+                <p class="text-md md:text-lg lg:text-xl">London Brogues</p>
+                <p class="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">Brogues for Men</p>
+                <p class="text-md md:text-lg lg:text-xl mt-4 cursor-pointer hover:underline">> Shop for brogues</p>
+            </div>
+        </div>
+        <!-- Right -->
+        <div class="relative md:w-1/2 h-full">
+            <img src="https://londonbrogues.co.uk/cdn/shop/t/26/assets/lb-right.jpg?v=54148192252220948911740671550" 
+                alt="" class="h-full w-full object-cover">
+            <div class="absolute top-1/2 left-1/4 transform -translate-y-1/2 text-white">
+                <p class="text-md md:text-lg lg:text-xl">London Brogues</p>
+                <p class="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">Brogues for Men</p>
+                <p class="text-md md:text-lg lg:text-xl mt-4 cursor-pointer hover:underline">> Shop for brogues</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-[5%] w-full bg-red-900 mt-20"></div>
+
 
     <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-6 p-4 mt-20">
-        <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+        <div class="text-center bg-white p-4 rounded-lg shadow-md relative">
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/LBBROWNBOOT3Q.jpg?v=1631788088&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">ALBERT PATENT PLAIN OXFORD</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
-        <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+        <div class="text-center bg-white p-4 rounded-lg shadow-md relative">
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/LBTANBOOT3Q.jpg?v=1631787865&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">SIDNEY OXFORD TAN</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
-        <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+        <div class="text-center bg-white p-4 rounded-lg shadow-md relative">
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/GATSBEY_BOOT_TAN-NAVY_SUEDE.jpg?v=1568281271&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">SIDNEY OXFORD BLACK</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
-        <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+        <div class="text-center bg-white p-4 rounded-lg shadow-md relative">
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/GATSBY_BOOT_TAN-BROWN_TWEED.jpg?v=1568369297&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">RIPLEY OXFORD TAN</p>
             <p class="font-bold">£87.00</p>
         </div>
         <!-- Product Item -->
-        <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+        <div class="text-center bg-white p-4 rounded-lg shadow-md relative">
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/GATSBY_BOOT_CHESTNUT.jpg?v=1568369560&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">RIPLEY OXFORD CHESTNUT</p>
             <p class="font-bold">£87.00</p>
         </div>
 
-        <div class="text-center bg-white p-4 rounded-lg shadow-md">
-            <img src="https://londonbrogues.co.uk/cdn/shop/files/BLACKPATENTbrogue.jpg?v=1698323764&width=360" alt="" class="w-full h-auto rounded-md">
+        <div class="text-center bg-white p-4 rounded-lg shadow-md relative">
+            <span class="absolute top-2 left-[77%] bg-red-600 text-white px-3 py-3 text-xs font-bold border-1 rounded-[50%]">SALE</span>
+            <img src="https://londonbrogues.co.uk/cdn/shop/products/LB-11_c0e4f41c-8449-40fb-91a4-5e7e920dfcf9.jpg?v=1565178559&width=360" alt="" class="w-full h-auto rounded-md">
             <p class="mt-2 font-bold">RIPLEY OXFORD CHESTNUT</p>
             <p class="font-bold">£87.00</p>
         </div>
     </div>
-    <div class="w-full h-[60%] lg:flex mt-10">
-        <img src="https://londonbrogues.co.uk/cdn/shop/t/26/assets/lb-left.jpg?v=56729518042173369651740671550" alt="" class="md:w-[50%]">
-        <img src="https://londonbrogues.co.uk/cdn/shop/t/26/assets/lb-right.jpg?v=54148192252220948911740671550" alt="" class="md:w-[50%]">
-    </div>
-    </div>
-    <div class="h-[10%] w-full bg-red-900 mt-20"></div>
-    <div class="">
+    
 
+    <div class="max-w-5xl mx-auto text-center py-16 px-6">
+        <h1 class="text-3xl sm:text-4xl font-bold text-red-900 mb-6">THE LONDON BROGUES GUARANTEE</h1>
+        
+        <div class="text-lg space-y-4">
+            <p>
+                At London Brogues, we take pride in crafting footwear that stands the test of time. Every pair of our 
+                shoes is designed with meticulous attention to detail, blending classic craftsmanship with contemporary style.
+            </p>
+            <p>
+                We are committed to using only the finest materials, sourcing premium South American leathers and 
+                high-quality Italian components to ensure exceptional durability, comfort, and elegance. This allows us 
+                to create luxury footwear that remains accessible, delivering outstanding quality at an affordable price.
+            </p>
+            <p>
+                Beyond our products, we are dedicated to providing unmatched customer service. Whether you need 
+                assistance with sizing, care advice, or any aspect of your purchase, our team is here to ensure your 
+                experience with London Brogues is nothing short of excellent.
+            </p>
+            <p>
+                When you choose London Brogues, you’re not just investing in a pair of shoes, you’re stepping into a 
+                legacy of craftsmanship, quality, and care. That’s our guarantee.
+            </p>
+        </div>
+
+        <!-- Icons Section -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+            <div class="text-center">
+                <img src="https://img.icons8.com/ios/50/000000/delivery.png" alt="Delivery" class="mx-auto w-12">
+                <p class="mt-2 font-semibold text-sm sm:text-base">FREE UK DELIVERY & RETURN</p>
+            </div>
+            <div class="text-center">
+                <img src="https://img.icons8.com/ios/50/000000/shoes.png" alt="Leather" class="mx-auto w-12">
+                <p class="mt-2 font-semibold text-sm sm:text-base">100% REAL LEATHER</p>
+            </div>
+            <div class="text-center">
+                <img src="https://img.icons8.com/ios/50/000000/diamond.png" alt="Quality" class="mx-auto w-12">
+                <p class="mt-2 font-semibold text-sm sm:text-base">UNCOMPROMISING QUALITY</p>
+            </div>
+            <div class="text-center">
+                <img src="https://img.icons8.com/ios/50/000000/package.png" alt="Packaging" class="mx-auto w-12">
+                <p class="mt-2 font-semibold text-sm sm:text-base">PREMIUM PACKAGING</p>
+            </div>
+        </div>
     </div>
+
+    <div class="h-[6%] w-full bg-gray-800"></div>
+
+    <div class="h-[10%] w-full bg-gray-800 border-t-2 border-white border-b-2 flex justify-between items-center">
+        <div class="font-bold text-xl ml-10">LONDON BROGUES</div>
+        <div class="flex space-x-7 mr-10">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+    <div class="h-[40%] w-full bg-gray-800"></div>
 </body>
 </html>
